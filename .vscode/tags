@@ -1,0 +1,98 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+By	../Crawl\meituan\spider.py	/^from selenium.webdriver.common.by import By$/;"	kind:namespace	line:9
+By	../Crawl\taobao\meishi_crwal.py	/^from selenium.webdriver.common.by import By$/;"	kind:namespace	line:5
+EC	../Crawl\meituan\spider.py	/^from selenium.webdriver.support import expected_conditions as EC$/;"	kind:namespace	line:12
+EC	../Crawl\taobao\meishi_crwal.py	/^from selenium.webdriver.support import expected_conditions as EC$/;"	kind:namespace	line:8
+LOGIN_URL	../NLP\test.py	/^LOGIN_URL = 'https:\/\/github.com\/login'$/;"	kind:variable	line:5
+SESSION_URL	../NLP\test.py	/^SESSION_URL = 'https:\/\/github.com\/session'$/;"	kind:variable	line:6
+TimeoutException	../Crawl\meituan\spider.py	/^from selenium.common.exceptions import TimeoutException$/;"	kind:namespace	line:8
+TimeoutException	../Crawl\taobao\meishi_crwal.py	/^from selenium.common.exceptions import TimeoutException$/;"	kind:namespace	line:4
+V	../NLP\ch1.py	/^V = set(text1)$/;"	kind:variable	line:21
+WebDriverWait	../Crawl\meituan\spider.py	/^from selenium.webdriver.support.ui import WebDriverWait$/;"	kind:namespace	line:11
+WebDriverWait	../Crawl\taobao\meishi_crwal.py	/^from selenium.webdriver.support.ui import WebDriverWait$/;"	kind:namespace	line:7
+authenticity_token	../NLP\test.py	/^authenticity_token = el.attrib['value']$/;"	kind:variable	line:12
+bigrams	../NLP\ch2.py	/^from nltk.util import bigrams$/;"	kind:namespace	line:9
+brown	../NLP\ch2.py	/^from nltk.corpus import brown$/;"	kind:namespace	line:8
+browser	../Crawl\meituan\spider.py	/^browser = webdriver.Chrome()$/;"	kind:variable	line:27
+cfd	../NLP\ch2.py	/^cfd = nltk.ConditionalFreqDist(p3)$/;"	kind:variable	line:149
+ch1.py	../NLP\ch1.py	1;"	kind:file	line:1
+ch2.py	../NLP\ch2.py	1;"	kind:file	line:1
+download_image	../Crawl\taobao\meishi_crwal.py	/^def download_image(url):$/;"	kind:function	line:138
+driver	../Crawl\taobao\meishi_crwal.py	/^driver = webdriver.PhantomJS(service_args=['--load-images=false', '--disk-cache=true'])$/;"	kind:variable	line:24
+el	../NLP\test.py	/^el = tree.xpath('\/\/input[@name="authenticity_token"]')[0]$/;"	kind:variable	line:11
+element_to_be_clickable	../Crawl\meituan\spider.py	/^from selenium.webdriver.support.expected_conditions import element_to_be_clickable$/;"	kind:namespace	line:10
+element_to_be_clickable	../Crawl\taobao\meishi_crwal.py	/^from selenium.webdriver.support.expected_conditions import element_to_be_clickable$/;"	kind:namespace	line:6
+emma	../NLP\ch2.py	/^emma = gutenberg.words('austen-emma.txt')$/;"	kind:variable	line:13
+entries	../NLP\ch2.py	/^entries = nltk.corpus.cmudict.entries()$/;"	kind:variable	line:123
+etree	../Crawl\meituan\spider.py	/^from lxml import etree$/;"	kind:namespace	line:14
+etree	../Crawl\meituan\spider.py	/^import lxml.etree$/;"	kind:namespace	line:15
+etree	../Crawl\taobao\meishi_crwal.py	/^from lxml import etree$/;"	kind:namespace	line:10
+etree	../Crawl\taobao\meishi_crwal.py	/^import lxml.etree$/;"	kind:namespace	line:11
+fdist1	../NLP\ch1.py	/^fdist1 = FreqDist(text1)$/;"	kind:variable	line:17
+fdist5	../NLP\ch1.py	/^fdist5 = FreqDist(text5)$/;"	kind:variable	line:29
+get_links	../Crawl\meituan\spider.py	/^def get_links():$/;"	kind:function	line:51
+getinfo	../Crawl\meituan\spider.py	/^def getinfo(): $/;"	kind:function	line:72
+getinfo2	../Crawl\meituan\spider.py	/^def getinfo2(url):$/;"	kind:function	line:66
+getproduct	../Crawl\taobao\meishi_crwal.py	/^def getproduct():$/;"	kind:function	line:75
+global_row	../Crawl\meituan\spider.py	/^def global_row(): $/;"	kind:function	line:94
+globalraw	../Crawl\taobao\meishi_crwal.py	/^def globalraw():$/;"	kind:function	line:51
+gutenberg	../NLP\ch2.py	/^from nltk.corpus import gutenberg$/;"	kind:namespace	line:7
+html	../Crawl\meituan\spider.py	/^from lxml import html$/;"	kind:namespace	line:13
+html	../Crawl\taobao\meishi_crwal.py	/^from lxml import html$/;"	kind:namespace	line:9
+html	../NLP\test.py	/^from lxml import html$/;"	kind:namespace	line:3
+io	../Crawl\meituan\spider.py	/^import io$/;"	kind:namespace	line:19
+letter	../NLP\ch2.py	/^letter = [w for w, pron in entries if stress(pron) == ['0', '1', '0', '2', '0']]$/;"	kind:variable	line:141
+lexical_diversity	../NLP\ch1.py	/^def lexical_diversity(text):$/;"	kind:function	line:8
+long_word	../NLP\ch1.py	/^long_word = [w for w in V if len(w) > 15]$/;"	kind:variable	line:22
+lxml	../Crawl\meituan\spider.py	/^import lxml.etree$/;"	kind:namespace	line:15
+lxml	../Crawl\taobao\meishi_crwal.py	/^import lxml.etree$/;"	kind:namespace	line:11
+main	../Crawl\meituan\spider.py	/^def main():$/;"	kind:function	line:109
+main	../Crawl\taobao\meishi_crwal.py	/^def main():$/;"	kind:function	line:161
+md5	../Crawl\taobao\meishi_crwal.py	/^from hashlib import md5$/;"	kind:namespace	line:16
+meishi_crwal.py	../Crawl\taobao\meishi_crwal.py	1;"	kind:file	line:1
+myimage	../Crawl\taobao\meishi_crwal.py	/^myimage = []$/;"	kind:variable	line:41
+next_page	../Crawl\taobao\meishi_crwal.py	/^def next_page(page_number):$/;"	kind:function	line:120
+nltk	../NLP\ch1.py	/^import nltk$/;"	kind:namespace	line:4
+nltk	../NLP\ch2.py	/^import nltk$/;"	kind:namespace	line:5
+os	../Crawl\taobao\meishi_crwal.py	/^import os$/;"	kind:namespace	line:15
+p3	../NLP\ch2.py	/^p3 = [(pron[0] + '-' + pron[2], word)$/;"	kind:variable	line:145
+parse	../Crawl\meituan\spider.py	/^def parse(url):$/;"	kind:function	line:62
+percentate	../NLP\ch1.py	/^def percentate(count, total):$/;"	kind:function	line:13
+r	../NLP\test.py	/^r = s.get(LOGIN_URL)$/;"	kind:variable	line:9
+re	../Crawl\meituan\spider.py	/^import re$/;"	kind:namespace	line:16
+re	../Crawl\taobao\meishi_crwal.py	/^import re$/;"	kind:namespace	line:12
+requests	../Crawl\meituan\spider.py	/^import requests$/;"	kind:namespace	line:18
+requests	../Crawl\taobao\meishi_crwal.py	/^import requests$/;"	kind:namespace	line:14
+requests	../NLP\test.py	/^import requests$/;"	kind:namespace	line:2
+row	../Crawl\meituan\spider.py	/^row = 0 $/;"	kind:variable	line:93
+row	../Crawl\taobao\meishi_crwal.py	/^row = 0$/;"	kind:variable	line:39
+s	../NLP\test.py	/^s = requests.session()$/;"	kind:variable	line:8
+save_image	../Crawl\taobao\meishi_crwal.py	/^def save_image(content):$/;"	kind:function	line:151
+save_to_excel	../Crawl\meituan\spider.py	/^def save_to_excel(items): $/;"	kind:function	line:98
+save_to_excel	../Crawl\taobao\meishi_crwal.py	/^def save_to_excel(product):$/;"	kind:function	line:43
+search	../Crawl\meituan\spider.py	/^def search():$/;"	kind:function	line:38
+search	../Crawl\taobao\meishi_crwal.py	/^def search():$/;"	kind:function	line:57
+set_trace	../Crawl\meituan\spider.py	/^from ipdb import set_trace$/;"	kind:namespace	line:21
+spider.py	../Crawl\meituan\spider.py	1;"	kind:file	line:1
+stopwords	../NLP\ch2.py	/^from nltk.corpus import stopwords$/;"	kind:namespace	line:10
+stress	../NLP\ch2.py	/^def stress(pron):$/;"	kind:function	line:138
+sys	../Crawl\meituan\spider.py	/^import sys$/;"	kind:namespace	line:20
+test.py	../NLP\test.py	1;"	kind:file	line:1
+tree	../NLP\test.py	/^tree = html.fromstring(r.text)$/;"	kind:variable	line:10
+vocalbulary1	../NLP\ch1.py	/^vocalbulary1 = fdist1.keys()$/;"	kind:variable	line:18
+wait	../Crawl\meituan\spider.py	/^wait = WebDriverWait(browser, 10)$/;"	kind:variable	line:28
+web	../Crawl\taobao\meishi_crwal.py	/^web = WebDriverWait(driver, 10)$/;"	kind:variable	line:26
+webdriver	../Crawl\meituan\spider.py	/^from selenium import webdriver$/;"	kind:namespace	line:7
+webdriver	../Crawl\taobao\meishi_crwal.py	/^from selenium import webdriver$/;"	kind:namespace	line:3
+workbook	../Crawl\meituan\spider.py	/^workbook = xlsxwriter.Workbook('data.xlsx')$/;"	kind:variable	line:31
+workbook	../Crawl\taobao\meishi_crwal.py	/^workbook = xlsxwriter.Workbook('Expenses01.xlsx')$/;"	kind:variable	line:32
+worksheet	../Crawl\meituan\spider.py	/^worksheet = workbook.add_worksheet()$/;"	kind:variable	line:32
+worksheet	../Crawl\taobao\meishi_crwal.py	/^worksheet = workbook.add_worksheet()$/;"	kind:variable	line:33
+xlsxwriter	../Crawl\meituan\spider.py	/^import xlsxwriter$/;"	kind:namespace	line:17
+xlsxwriter	../Crawl\meituan\spider.py	/^import xlsxwriter$/;"	kind:namespace	line:22
+xlsxwriter	../Crawl\taobao\meishi_crwal.py	/^import xlsxwriter$/;"	kind:namespace	line:13
